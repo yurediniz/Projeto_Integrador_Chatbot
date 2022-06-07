@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<!-- Perguntas não entendidas-->
+<category>
+   <pattern>*</pattern>
+   <template> Não consigo te ajudar sobre este assunto. OBS.: Não utilize acentos. ASSUNTOS QUE POSSO AJUDAR - Dispensa de disciplinas - Início do sementres - Ingresso nos cursos de SI - Presença na colação de grau - Valor dos cursos de SI - Presencial ou EAD - Horário da coordenação - Estágio no P1 - Ajuste de hórario - Horas complementares - Se ainda assim eu não conseguir te ajudar entre em contato com a coodernação pelo telefone (83)2106-3816 ou email pelo coordsi@iesp.edu.br</template>
+</category>
+
+<!-- Dispensa de disciplinas -->
+<category>
+   <pattern>DISPENSA</pattern>
+   <template> Através do portal do aluno online, na aba Helpdesk </template>
+</category>
+
+<category>
+   <pattern>* DISPENSA</pattern>
+   <template> Através do portal do aluno online, na aba Helpdesk </template>
+</category>
+
+<category>
+   <pattern>* DISPENSA *</pattern>
+   <template> Através do portal do aluno online, na aba Helpdesk </template>
+</category>
+
+<category>
+   <pattern>DISPENSA *</pattern>
+   <template> Através do portal do aluno online, na aba Helpdesk </template>
+</category>
+
+<!-- Quando é o início do sementres -->
+<category>
+   <pattern>INICIA * SEMESTRE *</pattern>
+   <template> Entre a primeira ou segunda semana de agosto.</template>
+</category>
+
+<category>
+   <pattern>INICIA * SEMESTRE</pattern>
+   <template> Entre a primeira ou segunda semana de agosto.</template>
+</category>
+
+<category>
+   <pattern>* INICIA * SEMESTRE</pattern>
+   <template> Entre a primeira ou segunda semana de agosto.</template>
+</category>
+
+<category>
+   <pattern>INICIO * SEMESTRE *</pattern>
+   <template> Entre a primeira ou segunda semana de agosto.</template>
+</category>
+
+<category>
+   <pattern>INICIO * SEMESTRE</pattern>
+   <template> Entre a primeira ou segunda semana de agosto.</template>
+</category>
+
+<category>
+   <pattern>* INICIO * SEMESTRE</pattern>
+   <template> Entre a primeira ou segunda semana de agosto.</template>
+</category>
+
+<!-- Como ingressar no curso -->
+<category>
+   <pattern>INGRESSO</pattern>
+   <template> Através do vestibular da instituição, transferência de outra instituição ou nota do ENEM
+   </template>
+</category>
+
+<category>
+   <pattern>* INGRESSO</pattern>
+   <template> Através do vestibular da instituição, transferência de outra instituição ou nota do ENEM
+   </template>
+</category>
+
+<category>
+   <pattern>* INGRESSO *</pattern>
+   <template> Através do vestibular da instituição, transferência de outra instituição ou nota do ENEM
+   </template>
+</category>
+
+<category>
+   <pattern>INGRESSO *</pattern>
+   <template> Através do vestibular da instituição, transferência de outra instituição ou nota do ENEM
+   </template>
+</category>
+
+<category>
+   <pattern>INGRESSAR</pattern>
+   <template> Através do vestibular da instituição, transferência de outra instituição ou nota do ENEM
+   </template>
+</category>
+
+<category>
+   <pattern>* INGRESSAR</pattern>
+   <template> Através do vestibular da instituição, transferência de outra instituição ou nota do ENEM
+   </template>
+</category>
+
+<category>
+   <pattern>* INGRESSAR *</pattern>
+   <template> Através do vestibular da instituição, transferência de outra instituição ou nota do ENEM
+   </template>
+</category>
+
+<category>
+   <pattern>INGRESSAR *</pattern>
+   <template> Através do vestibular da instituição, transferência de outra instituição ou nota do ENEM
+   </template>
+</category>
+
+<!-- É obrigatório a presença na colação de grau -->
+<category>
+   <pattern>COLACAO</pattern>
+   <template> No caso o aluno é obrigado a assina a ATA para poder receber o diploma a cerimônia da colação de grau que é a festa fica no seu critério em participar.
+   </template>
+</category>
+
+<category>
+   <pattern>* COLACAO</pattern>
+   <template> No caso o aluno é obrigado a assina a ATA para poder receber o diploma a cerimônia da colação de grau que é a festa fica no seu critério em participar.
+   </template>
+</category>
+
+<category>
+   <pattern>* COLACAO *</pattern>
+   <template> No caso o aluno é obrigado a assina a ATA para poder receber o diploma a cerimônia da colação de grau que é a festa fica no seu critério em participar.
+   </template>
+</category>
+
+<category>
+   <pattern> COLACAO *</pattern>
+   <template> No caso o aluno é obrigado a assina a ATA para poder receber o diploma a cerimônia da colação de grau que é a festa fica no seu critério em participar.
+   </template>
+</category>
+
+<!-- Valor dos cursos de SI -->
+<category>
+   <pattern>VALOR</pattern>
+   <template> Sistema Para Internet – R$472,98 | Sistema De Informação -
+      R$902,95 sobre os descontos só no setor comercial.      
+   </template>
+</category>
+
+<category>
+   <pattern>* VALOR</pattern>
+   <template> Sistema Para Internet – R$472,98 | Sistema De Informação -
+      R$902,95 sobre os descontos só no setor comercial.      
+   </template>
+
+</category>
+<category>
+   <pattern>* VALOR *</pattern>
+   <template> Sistema Para Internet – R$472,98 | Sistema De Informação -
+      R$902,95 sobre os descontos só no setor comercial.      
+   </template>
+</category>
+
+<category>
+   <pattern>VALOR *</pattern>
+   <template> Sistema Para Internet – R$472,98 | Sistema De Informação -
+   R$902,95 sobre os descontos só no setor comercial.      
+   </template>
+</category>
+
+<!-- Quantos períodos tem os cursos de SI-->
+<category>
+   <pattern>PERIODO</pattern>
+   <template> O curso de Sistema Para Internet são 5 períodos totalizando 2 anos e meio, o de Sistema de Informação são 8 períodos totalizando 4 anos.
+   </template>
+</category>
+
+<category>
+   <pattern>* PERIODO</pattern>
+   <template> O curso de Sistema Para Internet são 5 períodos totalizando 2 anos e meio, o de Sistema de Informação são 8 períodos totalizando 4 anos.
+   </template>
+</category>
+
+<category>
+   <pattern>* PERIODO *</pattern>
+   <template> O curso de Sistema Para Internet são 5 períodos totalizando 2 anos e meio, o de Sistema de Informação são 8 períodos totalizando 4 anos.
+   </template>
+</category>
+
+<category>
+   <pattern>PERIODO *</pattern>
+   <template> O curso de Sistema Para Internet são 5 períodos totalizando 2 anos e meio, o de Sistema de Informação são 8 períodos totalizando 4 anos.
+   </template>
+</category>
+
+<!-- O curso é presencial-->
+<category>
+   <pattern>PRESENCIAL</pattern>
+   <template> Sim os cursos EAD são, Análise e Desenvolvimento de Sistema e
+   Gestão de Tecnologia da Informação.
+   </template>
+</category>
+
+<category>
+   <pattern>* PRESENCIAL</pattern>
+   <template> Sim os cursos EAD são, Análise e Desenvolvimento de Sistema e
+   Gestão de Tecnologia da Informação.
+   </template>
+</category>
+
+<category>
+   <pattern>* PRESENCIAL *</pattern>
+   <template> Sim os cursos EAD são, Análise e Desenvolvimento de Sistema e
+   Gestão de Tecnologia da Informação.
+   </template>
+</category>
+
+<category>
+   <pattern>PRESENCIAL *</pattern>
+   <template> Sim os cursos EAD são, Análise e Desenvolvimento de Sistema e
+   Gestão de Tecnologia da Informação.
+   </template>
+</category>
+
+<!-- Horário de funcionamento da coordenação -->
+<category>
+   <pattern>HORARIO * COORDENACAO</pattern>
+   <template> O secretário sempre chega as 13hrs e fica disponível até as 22hrs
+   </template>
+</category>
+
+<category>
+   <pattern>* HORARIO * COORDENACAO</pattern>
+   <template> O secretário sempre chega as 13hrs e fica disponível até as 22hrs
+   </template>
+</category>
+
+<category>
+   <pattern>* HORARIO * COORDENACAO *</pattern>
+   <template> O secretário sempre chega as 13hrs e fica disponível até as 22hrs
+   </template>
+</category>
+
+<category>
+   <pattern>HORARIO * COORDENACAO *</pattern>
+   <template> O secretário sempre chega as 13hrs e fica disponível até as 22hrs
+   </template>
+</category>
+
+<!-- Estágio durante o P1-->
+<category>
+   <pattern>ESTAGIO * P1</pattern>
+   <template> Tudo depende do desenvolvimento do aluno independente do período que esteja cursando
+   </template>
+</category>
+
+<category>
+   <pattern>* ESTAGIO * P1</pattern>
+   <template> Tudo depende do desenvolvimento do aluno independente do período que esteja cursando
+   </template>
+</category>
+
+<category>
+   <pattern>ESTAGIAR * P1</pattern>
+   <template> Tudo depende do desenvolvimento do aluno independente do período que esteja cursando
+   </template>
+</category>
+
+<category>
+   <pattern>* ESTAGIAR * P1</pattern>
+   <template> Tudo depende do desenvolvimento do aluno independente do período que esteja cursando
+   </template>
+</category>
+
+<!-- Até quando solicitar ajuste de horário -->
+<category>
+   <pattern>AJUSTE DE HORARIO</pattern>
+   <template> Até a semana anterior ao inicio das primeiras avaliações
+   </template>
+</category>
+
+<category>
+   <pattern>* AJUSTE DE HORARIO</pattern>
+   <template> Até a semana anterior ao inicio das primeiras avaliações
+   </template>
+</category>
+
+<category>
+   <pattern>* AJUSTE DE HORARIO *</pattern>
+   <template> Até a semana anterior ao inicio das primeiras avaliações
+   </template>
+</category>
+
+<category>
+   <pattern>AJUSTE DE HORARIO *</pattern>
+   <template> Até a semana anterior ao inicio das primeiras avaliações
+   </template>
+</category>
+
+<!-- Como enviar os certificados de horas complementares-->
+<category>
+   <pattern>HORAS COMPLEMENTARES</pattern>
+   <template> Você envia seus certificafos de palestras, cursos de extensão, entre outros, através do portal do aluno online
+   </template>
+</category>
+
+<category>
+   <pattern>* HORAS COMPLEMENTARES</pattern>
+   <template> Você envia seus certificafos de palestras, cursos de extensão, entre outros, através do portal do aluno online
+   </template>
+</category>
+
+<category>
+   <pattern>* HORAS COMPLEMENTARES *</pattern>
+   <template> Você envia seus certificafos de palestras, cursos de extensão, entre outros, através do portal do aluno online
+   </template>
+</category>
+
+<category>
+   <pattern>HORAS COMPLEMENTARES *</pattern>
+   <template> Você envia seus certificafos de palestras, cursos de extensão, entre outros, através do portal do aluno online
+   </template>
+</category>
+
+</aiml>
